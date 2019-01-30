@@ -1,0 +1,19 @@
+{
+  "name": "scrollinapp",
+  "version": "1.0.0",
+  "description": "移动app端关于fixed定位，安卓ios兼容",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caraxiong/scrollInApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caraxiong/scrollInApp/issues"
+  },
+  "homepage": "https://github.com/Caraxiong/scrollInApp#readme"
+}

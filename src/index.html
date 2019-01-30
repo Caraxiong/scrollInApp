@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>scroll</title>
+    <style>
+      html,body,div {
+        padding: 0;
+        margin: 0;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        height: 500px;
+        width: 100%;
+      }
+      .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100px;
+        width: 100%;
+        background: #095dcc;
+      }
+      .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 100px;
+        width: 100%;
+        background: #e23;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="scroll-box">
+      <div class="header"></div>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+      </ul>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>
